@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Molson Gold Cart</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+  </head>
+  <body>
+
+      <h1 class="hidden">Mulson Gold</h1>
+      <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+  <header class="head">
+      <div class="menu">
+          <h2 class="hidden one-item">Molson Gold</h2>
+          <object class="logo" data="images/menu-logo.svg" type="image/svg+xml"></object>
+          <nav class="nav" aria-label="Main Navigation">
+              <h2 class="hidden">Main Navigation</h2>
+
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="products.html">BEER</a></li>
+                <li><a href="advertising.html">ADVERTISING</a></li>
+                <li><a class="active" href="purchase.html">CART</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+
+  <main id="content" class="main">
+    <section class="cart">
+        <h2 class="hidden">CART</h2>
+        <div class="two-items">
+            <div class="cart-item">
+              <div class="info">
+                <img src="images/Kit_PaleAle_can.jpg" alt="">
+              </div>
+                <h2 class="info">Pale Ale 437ml</h2>
+                <h3 class="info2">Billing details</h3>
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <h3 class="form-label">name</h3>
+                    <input name="fullName" type="text" placeholder="First & Last Name">
+                    <h3 class="form-label">e-mail</h3>
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <h3 class="form-label">address</h3>
+                    <input name="fullName" type="text" placeholder="number and street">
+                    <h3 class="form-label">Town/City</h3>
+                    <input name="contactInfo" type="text" required placeholder="City">
+                    <h3 class="form-label">Province</h3>
+                    <input name="contactInfo" type="text" required placeholder="Province">
+                    <h3 class="form-label">Post Code</h3>
+                    <input name="contactInfo" type="text" required placeholder="Post Code">
+                </form>
+            </div>
+            <div class="cart-item2">
+              <div class="box">
+                <h3 class="form-label">Subtotal</h3>
+                <p>$6.50</p>
+                <h3 class="form-label">Bottle Deposit</h3>
+                <p>$0.10</p>
+                <h3 class="form-label">GST</h3>
+                <p>$0.33</p>
+                <h3 class="form-label">PST</h3>
+                <p>$0.65</p>
+                <h3 class="form-label">Total</h3>
+                <p>$7.58</p>
+              </div>
+              <form action="email.php" method="POST" enctype="text/plain">
+                  <h3 class="form-label">Card Number *</h3>
+                  <input name="fullName" type="text" placeholder="---- ---- ---- ---- ----">
+                  <h3 class="form-label">Expiration (MM/YY) *</h3>
+                  <input name="contactInfo" type="text" required placeholder="MM / YY">
+                  <h3 class="form-label">Card Security Code *</h3>
+                  <input name="fullName" type="text" placeholder="CSC">
+              </form>
+              <object id="svgImage2" class="button2" data="images/button_shop_now.svg" type="image/svg+xml"></object>
+                <h2>Contact</h2>
+                <p>Molson Brewery
+                    33 Carlingview Dr, Etobicoke,
+                <br>ON M9W 5E4</p>
+
+                <p>T: 1 (800) 665-7661
+                <br>info@molsongold.com</p>
+            </div>
+        </div>
+    </section>
+
+  </main>
+</body>
