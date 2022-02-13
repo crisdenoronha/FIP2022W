@@ -11,13 +11,13 @@ Created with the flavours of Molson beer and the healing properties of Gold Bond
 
 
 ## Tasks:
-● 5 Pages (Home, About, Products/Promotions, Advertisements, Contact/Purchase)
-● Semantic tagging and Proper Document Outline
-● Static/Fixed width site using flexbox
-● Valid HTML5
-● Valid CSS
-● Browser Compatibility (FF, Chrome)
-● Folder structure
-● Layered working files
-● Link to CSS file, Reset, JS file
-● CSS Animation
+● 5 Pages (Home, About, Products/Promotions, Advertisements, Contact/Purchase)<br>
+● Semantic tagging and Proper Document Outline<br>
+● Static/Fixed width site using flexbox<br>
+● Valid HTML5<br>
+● Valid CSS<br>
+● Browser Compatibility (FF, Chrome)<br>
+● Folder structure<br>
+● Layered working files<br>
+● Link to CSS file, Reset, JS file<br>
+● CSS Animation<br>
