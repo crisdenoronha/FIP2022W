@@ -9,13 +9,15 @@ Created with the flavours of Molson beer and the healing properties of Gold Bond
 
 <p>Goals - Molson Gold Website has two principal goals, the first is to present the Molson Gold Beers and the second is to sell them.</p>
 
-<p>Deliverables - prototype desktop and mobile</p>
-
-<p>Features - Adobe Photoshop, Illustrator, XD</p>
 
 ## Tasks:
-1. made three pages of desktop prototype
-2. made three pages of mobile with XD
-3. write promotional text
-4. build 3D images of the products 
-5. deadlines of the project - February 13th
+● 5 Pages (Home, About, Products/Promotions, Advertisements, Contact/Purchase)
+● Semantic tagging and Proper Document Outline
+● Static/Fixed width site using flexbox
+● Valid HTML5
+● Valid CSS
+● Browser Compatibility (FF, Chrome)
+● Folder structure
+● Layered working files
+● Link to CSS file, Reset, JS file
+● CSS Animation
