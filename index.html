@@ -1,103 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Molson Gold Home</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
-      <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-      <h1 class="hidden">Mulson Gold</h1>
-      <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-  <header class="head">
-      <div class="menu">
-          <h2 class="hidden one-item">Molson Gold</h2>
-          <object class="logo" data="images/menu-logo.svg" type="image/svg+xml"></object>
-          <nav class="nav" aria-label="Main Navigation">
-              <h2 class="hidden">Main Navigation</h2>
-
-              <ul>
+  <title>Molson Gold Home</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+    <header>
+        <h1 class="hidden">Home Molson Gold</h1>
+        <div id="navMobile">
+            <ul>
+              <li><div class="icon"><img id="hamburger" src="images/SVG/hamburger.svg" alt="humburger icon"></div></li>
+              <li><div class="icon"><img id="arrow" src="images/SVG/arrow.svg" alt="arrow icon"></div></li>
+              <li><div class="icon"><img id="logo" src="images/SVG/logo_horizontal.svg" alt="logo icon"></div></li>
+              <li><div class="icon"><img id="number" src="images/SVG/number3.svg" alt="number 3 icon"><img id="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li>
+            </ul>
+          </div>
+        <nav id="navDesktop">
+            <h2 class="hidden">Main Navigation Desktop</h2>
+            <ul>
+                <li><div class="logo"><img src="images/SVG/logo_horizontal.svg" alt="logo"></div></li>
                 <li><a class="active" href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="products.html">BEER</a></li>
+                <li><a href="products.html">BEERS</a></li>
                 <li><a href="advertising.html">ADVERTISING</a></li>
+                <li><a href="buy.html">BUY</a></li>
                 <li><a href="purchase.html">CART</a></li>
-              </ul>
-          </nav>
+                <li><div class=""><img class="number" src="images/SVG/number3.svg" alt="number 3 icon"><img class="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li> 
+            </ul>
+        </nav>
+        <section id="hero">
+            <h2 class="">Buy beer online</h2>
+            <h3 class="">Healing from top to toe</h3>
+            <button class="">shop now</button>
+        </section>
+    </header>
+    <section id="intro">
+        <h2 class="hidden">Introduction Molson Gold</h2>
+        <div id="introM">
+          <img src="images/low/Mhome1_heroImage.jpg" alt="hero image mobile">
+        </div>
+        <div id="introD">
+          <img src="images/high/home1_heroImage.jpg" alt="hero image desktop">
+        </div>
+        <div>
+          <h3>Molson Gold</h3>
+          <p>
+            The first beer that refreshes, hydrates the body and takes care of your foot. 
+            Perfect for those who practice sports, but don't give up beer.
+  
+            Created with the flavours of Molson beer and the healing properties of Gold Bond, 
+            Molson Gold will leave you feeling healthy and itchy-free.
+  
+            We have four delicious types of beer like Larger, Original, Porter and Pale Ale. 
+            Enjoy anytime, any season. Come and discover the history of the first beer developed especially for athletes. 
+          </p>
+          <button class="">about us</button>
+       </div>
+      </section>
+      <section id="ourBeers">
+        <div class="blueBar">
+            <h2>our beers</h2>
+        </div>
+        <nav id="navOurBeers">
+          <h2 class="hidden">Beer Navigation</h2>
+          <ul>
+              <li><div class=""><img src="images/SVG/selo_original.svg" alt="original icon"><p>original</p></div></li>
+              <li><div class=""><img src="images/SVG/selo_lager.svg" alt="lager icon"><p>lager</p></div></li>
+              <li><div class=""><img src="images/SVG/selo_pale_ale.svg" alt="original icon"><p>pale ale</p></div></li>
+              <li><div class=""><img src="images/SVG/selo_porter.svg" alt="porter icon"><p>porter</p></div></li>
+              <li><div class=""><img src="images/SVG/selo_nhl.svg" alt="NHL icon"><p>nhl</p></div></li>
+          </ul>
+        </nav>
+        <div class="beersM">
+          <h3 class="title">original</h3>
+          <img src="images/low/Mhome3_original.png" alt="original can and beer glass"/>
+        </div>
+        <div class="beersD">
+          <img src="images/high/home3_original.jpg" alt="original can and beer glass"/>
+          <img src="images/high/home4_lager.jpg" alt="lager can and beer glass"/>
+          <img src="images/high/home5_PaleAle.jpg" alt="pale ale can and beer glass"/>
+          <img src="images/high/home6_NHL.jpg" alt="porter can and beer glass"/>
+          <img src="images/high/home7_Porter.jpg" alt="NHL can and beer glass"/>
+        </div>
+      </section>
+      <section id="promo">
+        <h2 class="hidden">Special Edition Molson Gold</h2>
+        <div id="MspecialEdition">
+          <img src="images/low/Mhome8_specialEdition.jpg" alt="NHL beer can mobile">
+        </div>
+        <div id="DspecialEdition">
+          <img src="images/high/home8_specialEdition.jpg" alt="NHL beer can desktop">
+        </div>
+        <div class="SpecialEdition">
+        <h3 class="">special edition</h3>
+        <p>
+          This year the official beer of the NHL got a special edition. 
+          Molson Gold NHL keeps you hydrated good before or after any game. 
+        </p>
+        <button class="">shop now</button>
       </div>
-  </header>
-    <main id="content" class="main">
-        <section class="hero">
-            <div class="hero-img">
-                <img src="images/home_hero_image.jpg" alt="Advertisement">
-                <h2 class="blue">Buy Beer Online</h2>
-                <h3><span>SHOP NOW</span></h3>
-            </div>
-        </section>
-
-
-        <section>
-            <div class="two-items">
-                <div class="red">
-                     <h3>Molson Gold</h3>
-                      <p>
-                        The first beer that refreshes, hydrates the body and takes care of your foot.
-                        Perfect for those who practice sports, but don't give up beer.
-                      </p>
-                       <p>
-                        Created with the flavours of Molson beer and the healing properties of Gold Bond,
-                        Molson Gold will leave you feeling healthy and itchy-free.
-                      </p>
-                      <p>
-                        We have four delicious types of beer like Larger, Original, Porter and Pale Ale. Enjoy anytime, any season. Come and discover the history of the first beer developed especially for athletes.
-                      </p>
-                      <object id="svgImage1" class="button" data="images/button_about_us.svg" type="image/svg+xml"></object>
-                </div>
-                <div class="about">
-                    <img src="images/home_about_us.jpg" alt="Beer and Mugs">
-                </div>
-            </div>
-        </section>
-
-
-        <section>
-            <div class="two-items">
-              <div>
-                  <img src="images/home_beer_can_NHL.jpg" alt="Beer Can">
-              </div>
-                <div class="gold">
-                    <h3>Molson Gold</h3>
-                    <h4>special edition</h4>
-                      <p>
-                        This year the official beer of the NHL got a special edition. Molson Gold NHL keeps you hydrated good before or after any game.
-                      </p>
-                       <p>
-                        A beautifully balanced ale with a delicate hop aroma, subtle malty biscuit flavours and a refreshingly crisp finish.
-                      </p>
-                      <p>
-                        Aroma is delicate hop aroma with malt notes breaking through. Flavour: Malty biscuit, delicate hop bitterness, slight sweetness Palate: Slight mouth drying, a refreshing clean finish, with little to no linger.
-                      </p>
-                      <object id="svgImage2" class="button" data="images/button_shop_now.svg" type="image/svg+xml"></object>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-        <footer class="footer">
-            <h2 class="hidden">Footer</h2>
-            <div class="menu">
-                <p>All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change.
-                <br>Please call to confirm services, availability and pricing.<br>©2021 Molson Gold Inc. All Rights Reserved. Privacy Policy </p>
-            </div>
-         </footer>
+      </section>      
+</main>
+    <footer id="footer">
+        <h2 class="hidden">Footer</h2>
+        <div class="footer">
+        <p>
+          All prices and services on this website and in our reservation 
+          system are based on conditions at the time of publishing and are subject to change. 
+          Please call to confirm services, availability and pricing.
+          <br><br> ©2021 Molson Gold Inc. All Rights Reserved. Privacy Policy
+        </p>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
-  </body>
-
+</body>
 </html>

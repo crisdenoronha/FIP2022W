@@ -1,123 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Molson Gold Products</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Molson Gold Home</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="hidden">Mulson Gold</h1>
-    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-    <header class="head">
-        <div class="menu">
-            <h2 class="hidden one-item">Molson Gold</h2>
-            <object class="logo" data="images/menu-logo.svg" type="image/svg+xml"></object>
-            <nav class="nav" aria-label="Main Navigation">
-                <h2 class="hidden">Main Navigation</h2>
-                <ul>
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a href="about.html">ABOUT US</a></li>
-                  <li><a class="active" href="products.html">BEER</a></li>
-                  <li><a href="advertising.html">ADVERTISING</a></li>
-                  <li><a href="purchase.html">CART</a></li>
-                </ul>
-            </nav>
-        </div>
+<main>
+    <header>
+        <h1 class="hidden">Home Molson Gold</h1>
+        <div id="navMobile">
+            <ul>
+              <li><div class="icon"><img id="hamburger" src="images/SVG/hamburger.svg" alt="humburger icon"></div></li>
+              <li><div class="icon"><img id="arrow" src="images/SVG/arrow.svg" alt="arrow icon"></div></li>
+              <li><div class="icon"><img id="logo" src="images/SVG/logo_horizontal.svg" alt="logo icon"></div></li>
+              <li><div class="icon"><img id="number" src="images/SVG/number3.svg" alt="number 3 icon"><img id="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li>
+            </ul>
+          </div>
+        <nav id="navDesktop">
+            <h2 class="hidden">Main Navigation Desktop</h2>
+            <ul>
+                <li><div class="logo"><img src="images/SVG/logo_horizontal.svg" alt="logo"></div></li>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="products.html">BEERS</a></li>
+                <li><a href="advertising.html">ADVERTISING</a></li>
+                <li><a href="buy.html">BUY</a></li>
+                <li><a href="purchase.html">CART</a></li>
+                <li><div class=""><img class="number" src="images/SVG/number3.svg" alt="number 3 icon"><img class="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li> 
+            </ul>
+        </nav>
+        <nav id="navBeersM">
+            <h2 class="hidden">Beer Navigation</h2>
+            <ul>
+                <li><div class=""><img src="images/SVG/selo_original.svg" alt="original icon"><p>original</p></div></li>
+                <li><div class=""><img src="images/SVG/selo_lager.svg" alt="lager icon"><p>lager</p></div></li>
+                <li><div class=""><img src="images/SVG/selo_pale_ale.svg" alt="original icon"><p>pale ale</p></div></li>
+                <li><div class=""><img src="images/SVG/selo_porter.svg" alt="porter icon"><p>porter</p></div></li>
+                <li><div class=""><img src="images/SVG/selo_nhl.svg" alt="NHL icon"><p>nhl</p></div></li>
+            </ul>
+          </nav>
+        <nav id="navBeersD">
+            <h2 class="hidden">Navigation Beers</h2>
+            <ul>
+                <li><a class="active" href="original.html">original</a></li>
+                <li><a href="lager.html">lager</a></li>
+                <li><a href="porter.html">porter</a></li>
+                <li><a href="paleale.html">pale ale</a></li>
+                <li><a href="nhl.html">nhl</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <main id="content" class="main">
-        <section class="hero">
-            <div class="hero-img">
-              <img src="images/beer_hero_image.jpg" alt="Advertisement">
-                <h2 class="leftbold">Molson Gold</h2>
-                <h2 class="left">SPECIAL EDITION</h2>
-                  <p>This year the official beer of the NHL got a special edition.
-                  <br>Molson Gold NHL is the only beer that keeps you hydrated<br>and it is good for your skin.</p>
-                 <h3 class=""><span>SHOP NOW</span></h3>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="hidden">Products</h2>
-            <div class="four-items product">
-                <div>
-                    <img src="images/original_bottle.png" alt="Beer Ads Original" width="470">
-                </div>
-
-                <div>
-                    <img src="images/original_bottle.png" alt="Beer Ads Original" width="470">
-                </div>
-                <div>
-                    <img src="images/NHL_can.png" alt="Beer Ads NHL Ads" width="470">
-                </div>
-                <div>
-                    <img src="images/large_can.png" alt="Beer Ads Large Ads" width="470">
-                </div>
-            </div>
-            <div class="four-items tag">
-                <div>
-                    <p>ORIGINAL 700ml<br>$ 15.30</p>
-                </div>
-                <div>
-                    <p>ORIGINAL 700ml<br>$ 15.30</p>
-                </div>
-                <div>
-                    <p>NHL 473ml<br>$ 7.50</p>
-                </div>
-                <div>
-                    <p>LARGER 473ml<br>$ 7.50</p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-          <h2 class="hidden">Products</h2>
-            <div class="four-items product">
-              <div>
-                  <img src="images/original_bottle.png" alt="Beer Ads Original" width="470">
-              </div>
-                <div>
-                    <img src="images/paleale_can.png" alt="Beer Paleale Ads" width="470">
-                </div>
-                <div>
-                    <img src="images/porter_bottle.png" alt="Beer Bottle Ads" width="470">
-                </div>
-                <div>
-                    <img src="images/original_can.png" alt="Beer Original Can Ads" width="470">
-                </div>
-            </div>
-            <div class="four-items tag">
-                <div>
-                    <p>ORIGINAL 700ml<br>$ 15.30</p>
-                </div>
-                <div>
-                    <p>PALE ALE 473ml<br>$ 7.50</p>
-                </div>
-                <div>
-                    <p>PORTER 473ml <br>$ 7.50</p>
-                </div>
-                <div>
-                    <p>ORIGINAL 473ml <br>$ 7.50</p>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <h2 class="hidden">Footer</h2>
-        <div class="menu">
-            <p>All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change.
-            <br>Please call to confirm services, availability and pricing.<br>©2021 Molson Gold Inc. All Rights Reserved. Privacy Policy </p>
+    <section class="infoBeers">
+        <div class="photosM">
+            <div class="numbersBlue"><p>1</p></div>
+            <div class="numbersBlue"><p>2</p></div>
+            <div class="numbersBlue"><p>3</p></div>
+            <div class="numbersBlue"><p>4</p></div>
+            <div class="thePhotoM"></div>
         </div>
-     </footer>
+        <div class="photosD">
+            <div class="numbersBlue"><p>1</p></div>
+            <div class="numbersBlue"><p>2</p></div>
+            <div class="numbersBlue"><p>3</p></div>
+            <div class="numbersBlue"><p>4</p></div>
+            <div class="thePhotoD"></div>
+        </div>
+
+        <h3 id="infoTitle"></h3>
+        <p id="infoText"></p>
+
+    </section>
+</main>
+    <footer id="footer">
+        <h2 class="hidden">Footer</h2>
+        <div class="footer">
+        <p>
+        All prices and services on this website and in our reservation 
+        system are based on conditions at the time of publishing and are subject to change. 
+        Please call to confirm services, availability and pricing.
+        <br><br> ©2021 Molson Gold Inc. All Rights Reserved. Privacy Policy
+        </p>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
 </body>
-
-</html>
+</html>  

@@ -1,85 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Molson Gold Advertising</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
-      <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-      <h1 class="hidden">Mulson Gold</h1>
-      <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-  <header class="head">
-      <div class="menu">
-          <h2 class="hidden">Molson Gold head</h2>
-          <object class="logo" data="images/menu-logo.svg" type="image/svg+xml"></object>
-          <nav class="nav" aria-label="Main Navigation">
-              <h2 class="hidden">Main Navigation</h2>
-
-              <ul>
+  <title>Molson Gold Home</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+    <header>
+        <h1 class="hidden">Home Molson Gold</h1>
+        <div id="navMobile">
+            <ul>
+              <li><div class="icon"><img id="hamburger" src="images/SVG/hamburger.svg" alt="humburger icon"></div></li>
+              <li><div class="icon"><img id="arrow" src="images/SVG/arrow.svg" alt="arrow icon"></div></li>
+              <li><div class="icon"><img id="logo" src="images/SVG/logo_horizontal.svg" alt="logo icon"></div></li>
+              <li><div class="icon"><img id="number" src="images/SVG/number3.svg" alt="number 3 icon"><img id="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li>
+            </ul>
+          </div>
+        <nav id="navDesktop">
+            <h2 class="hidden">Main Navigation Desktop</h2>
+            <ul>
+                <li><div class="logo"><img src="images/SVG/logo_horizontal.svg" alt="logo"></div></li>
                 <li><a class="active" href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="products.html">BEER</a></li>
+                <li><a href="products.html">BEERS</a></li>
                 <li><a href="advertising.html">ADVERTISING</a></li>
+                <li><a href="buy.html">BUY</a></li>
                 <li><a href="purchase.html">CART</a></li>
-              </ul>
-          </nav>
-      </div>
-  </header>
-    <main id="content" class="main">
-      <section class="hero">
-          <div class="hero-img">
-            <img src="images/hero_image_NHL.jpg" alt="Advertisement">
-              <h2 class="leftbold">Molson Gold</h2>
-              <h2 class="left">SPECIAL EDITION</h2>
-                <p>This year the official beer of the NHL got a special edition.
-                <br>The new commercial featuring National Hockey League teams is ready <br> with the best moments.<br>Enjoy!</p>
-               <h3 class=""><span>VIDEO</span></h3>
-          </div>
-      </section>
-
-      <section class="notice">
-          <h2 class="hidden">Advertising 1</h2>
-          <div class="menu">
-              <p>Discover our heling from top to toe campaign
-              <br>by clicking on the labels below.</p>
-          </div>
-       </section>
-
-
+                <li><div class=""><img class="number" src="images/SVG/number3.svg" alt="number 3 icon"><img class="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li> 
+            </ul>
+        </nav>
+    </header>
+        <section id="heroAdvM">
+            <img src="images/low/Madvertising1_heroImage.jpg" alt="original advertising">
+        </section>
+        <section id="heroAdvD">
+            <img src="images/high/advertising1_heroImage.jpg" alt="original advertising">            
+            <h2 class="">Original</h2>
+            <h3 class="">Bronze at the World Beer Awards 2019</h3>
+            <button class="">buy</button>
+        </section>
         <section>
-            <div class="two-items">
-                <h2 class="hidden">Advertising 2</h2>
-              <div class="">
-                  <img src="images/D-promotionals_lager.jpg" alt="Beer and Mugs">
-              </div>
-                <div class="">
-                      <object id="svgImage3" class="labels" data="images/original_label.svg" type="image/svg+xml"></object>
-                      <object id="svgImage4" class="labels" data="images/lager_label.svg" type="image/svg+xml"></object>
-                      <object id="svgImage5" class="labels" data="images/porter_label.svg" type="image/svg+xml"></object>
-                      <object id="svgImage6" class="labels" data="images/pale_ale_label.svg" type="image/svg+xml"></object>
-                </div>
-
+            <div class="blueBar">
+                <h2>videos</h2>
             </div>
+            <img src="images/low/Madvertising2_video1.jpg" class="imageAdvM" alt="video opens doors">
+            <img src="images/high/advertising2_video1.jpg" class="imageAdvD" alt="video opens doors">
+            <h3>opens doors</h3>
+            <p>The first beer that refreshes, 
+                hydrates the body and takes care of your foot. Perfect for 
+                those who practice sports, but don't give up beer.</p>
+            
+            <img src="images/low/Madvertising3_video2.jpg" class="imageAdvM" alt="video our beers">
+            <img src="images/high/advertising3_video2.jpg" class="imageAdvD" alt="video our beers">
+            <h3>our beers</h3>
+            <p>Original, Lager, Porter, Pale Ale and New Edition discover all our flavours.</p>
+
+            <div class="blueBar">
+                <h2>news</h2>
+            </div>
+            <img src="images/low/Madvertising2_video1.jpg" class="imageAdvM" alt="video opens doors">
+            <img src="images/high/advertising2_video1.jpg" class="imageAdvD" alt="video opens doors">
+            <h3>new edition</h3>
+            <p>Molson Gold New Edition will give extra energy for your game. 
+                Read the interview with Rebeca Porter our cientista lab.</p>
+                
+            <button class="">read more</button>
+            
+            <img src="images/low/Madvertising3_video2.jpg" class="imageAdvM" alt="video our beers">
+            <img src="images/high/advertising3_video2.jpg" class="imageAdvD" alt="video our beers">
+            <h3>lager</h3>
+            <p>Lager receives Invention of the Year Award. 
+            After more than a thousand tests carried out in 10 renowned laboratories, 
+            Lager is considered the first alcoholic beverage that hydrates the body 
+            in the same proportion as water.</p>
+
+            <button class="">read more</button>
         </section>
 
     </main>
-
-
-        <footer class="footer">
-            <h2 class="hidden">Footer</h2>
-            <div class="menu">
-                <p>All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change.
-                <br>Please call to confirm services, availability and pricing.<br>©2021 Molson Gold Inc. All Rights Reserved. Privacy Policy </p>
-            </div>
-         </footer>
+    <footer id="footer">
+        <h2 class="hidden">Footer</h2>
+        <div class="footer">
+        <p>
+        All prices and services on this website and in our reservation 
+        system are based on conditions at the time of publishing and are subject to change. 
+        Please call to confirm services, availability and pricing.
+        <br><br> ©2021 Molson Gold Inc. All Rights Reserved. Privacy Policy
+        </p>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
-  </body>
-
+</body>
 </html>
