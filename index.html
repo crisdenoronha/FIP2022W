@@ -16,42 +16,51 @@
 <main>
     <header>
         <h1 class="hidden">Home Molson Gold</h1>
-        <div id="navMobile">
-            <ul>
+        <div class="mobile">
+            <ul id="navMobile">
               <li><div class="icon"><img id="hamburger" src="images/SVG/hamburger.svg" alt="humburger icon"></div></li>
               <li><div class="icon"><img id="arrow" src="images/SVG/arrow.svg" alt="arrow icon"></div></li>
               <li><div class="icon"><img id="logo" src="images/SVG/logo_horizontal.svg" alt="logo icon"></div></li>
               <li><div class="icon"><img id="number" src="images/SVG/number3.svg" alt="number 3 icon"><img id="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li>
             </ul>
           </div>
-        <nav id="navDesktop">
+          
+        <nav class="desktop"  id="navDesktop">
             <h2 class="hidden">Main Navigation Desktop</h2>
+            <img src="images/SVG/logo_horizontal.svg" alt="logo" class="logo">
             <ul>
-                <li><div class="logo"><img src="images/SVG/logo_horizontal.svg" alt="logo"></div></li>
                 <li><a class="active" href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
                 <li><a href="products.html">BEERS</a></li>
                 <li><a href="advertising.html">ADVERTISING</a></li>
                 <li><a href="buy.html">BUY</a></li>
                 <li><a href="purchase.html">CART</a></li>
-                <li><div class=""><img class="number" src="images/SVG/number3.svg" alt="number 3 icon"><img class="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div></li> 
             </ul>
+            <div><img class="number" src="images/SVG/number3.svg" alt="number 3 icon">
+            <img class="cart" src="images/SVG/icon_cart.svg" alt="cart icon"></div>
         </nav>
-        <section id="hero">
-            <h2 class="">Buy beer online</h2>
-            <h3 class="">Healing from top to toe</h3>
-            <button class="">shop now</button>
+        <section class="mobile">
+          <div id="heroM">
+            <h2 class="blue margin">Buy beer online</h2>
+            <button class="backBlue">shop now</button>
+          </div>
         </section>
+        <section class="desktop">
+        <div id="heroD">
+        <div class="boxOneItem">
+          <h2 class="blue">Buy beer online</h2>
+          <h3 class=>Healing from top to toe</h3>
+          <button class="backBlue margin">shop now</button>
+        </div>
+        </div>
+       </section>
     </header>
     <section id="intro">
         <h2 class="hidden">Introduction Molson Gold</h2>
-        <div id="introM">
-          <img src="images/low/Mhome1_heroImage.jpg" alt="hero image mobile">
-        </div>
-        <div id="introD">
-          <img src="images/high/home1_heroImage.jpg" alt="hero image desktop">
-        </div>
-        <div>
+          <img class="mobile" src="images/low/Mhome2_aboutUsVideo.jpg" alt="hero image mobile">
+
+         <div id="intro2"><img class="desktop" src="images/high/home2_aboutUsVideo.jpg" alt="hero image desktop"></div>
+        <div class="conteiner">
           <h3>Molson Gold</h3>
           <p>
             The first beer that refreshes, hydrates the body and takes care of your foot. 
@@ -63,50 +72,54 @@
             We have four delicious types of beer like Larger, Original, Porter and Pale Ale. 
             Enjoy anytime, any season. Come and discover the history of the first beer developed especially for athletes. 
           </p>
-          <button class="">about us</button>
+          <button class="backgold">about us</button>
        </div>
-      </section>
-      <section id="ourBeers">
-        <div class="blueBar">
+    </section>
+      <section>
+        <div id="ourBeers">
             <h2>our beers</h2>
         </div>
-        <nav id="navOurBeers">
+        <nav class="mobile" id="beerNav">
           <h2 class="hidden">Beer Navigation</h2>
           <ul>
-              <li><div class=""><img src="images/SVG/selo_original.svg" alt="original icon"><p>original</p></div></li>
-              <li><div class=""><img src="images/SVG/selo_lager.svg" alt="lager icon"><p>lager</p></div></li>
-              <li><div class=""><img src="images/SVG/selo_pale_ale.svg" alt="original icon"><p>pale ale</p></div></li>
-              <li><div class=""><img src="images/SVG/selo_porter.svg" alt="porter icon"><p>porter</p></div></li>
-              <li><div class=""><img src="images/SVG/selo_nhl.svg" alt="NHL icon"><p>nhl</p></div></li>
+              <li><div class="menu"><img src="images/SVG/selo_original.svg" alt="original icon"><p>ORIGINAL</p></div></li>
+              <li><div class="menu"><img src="images/SVG/selo_lager.svg" alt="lager icon"><p>LAGER</p></div></li>
+              <li><div class="menu"><img src="images/SVG/selo_pale_ale.svg" alt="original icon"><p>PALE ALE</p></div></li>
+              <li><div class="menu"><img src="images/SVG/selo_porter.svg" alt="porter icon"><p>PORTER</p></div></li>
+              <li><div class="menu"><img src="images/SVG/selo_nhl.svg" alt="NHL icon"><p>NHL</p></div></li>
           </ul>
         </nav>
-        <div class="beersM">
+        <div class="mobile">
+         <div id="beersMobile">
           <h3 class="title">original</h3>
-          <img src="images/low/Mhome3_original.png" alt="original can and beer glass"/>
+          <img src="images/low/Mhome3_original.jpg" alt="original can and beer glass"/>
+         </div>
         </div>
-        <div class="beersD">
+        <div class="desktop">
+         <div id="beersDesktop">
           <img src="images/high/home3_original.jpg" alt="original can and beer glass"/>
           <img src="images/high/home4_lager.jpg" alt="lager can and beer glass"/>
           <img src="images/high/home5_PaleAle.jpg" alt="pale ale can and beer glass"/>
           <img src="images/high/home6_NHL.jpg" alt="porter can and beer glass"/>
           <img src="images/high/home7_Porter.jpg" alt="NHL can and beer glass"/>
+         </div>
         </div>
       </section>
       <section id="promo">
         <h2 class="hidden">Special Edition Molson Gold</h2>
-        <div id="MspecialEdition">
-          <img src="images/low/Mhome8_specialEdition.jpg" alt="NHL beer can mobile">
+        <div class="mobile" id="MspecialEdition">
+          <img src="images/low/Mhome8_specialEdition.jpg" class="mobile" alt="NHL beer can mobile">
         </div>
-        <div id="DspecialEdition">
+        <div class="desktop" id="DspecialEdition">
           <img src="images/high/home8_specialEdition.jpg" alt="NHL beer can desktop">
         </div>
         <div class="SpecialEdition">
-        <h3 class="">special edition</h3>
+        <h3>special edition</h3>
         <p>
           This year the official beer of the NHL got a special edition. 
           Molson Gold NHL keeps you hydrated good before or after any game. 
         </p>
-        <button class="">shop now</button>
+        <button class="backBlack">shop now</button>
       </div>
       </section>      
 </main>
@@ -115,7 +128,7 @@
         <div class="footer">
         <p>
           All prices and services on this website and in our reservation 
-          system are based on conditions at the time of publishing and are subject to change. 
+          system are based on conditions at the time of publishing and are subject to change.<br> 
           Please call to confirm services, availability and pricing.
           <br><br> ©2021 Molson Gold Inc. All Rights Reserved. Privacy Policy
         </p>
