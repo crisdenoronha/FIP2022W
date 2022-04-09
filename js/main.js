@@ -1,9 +1,8 @@
 (() => {
 
-/*------------ Our Team Section Mobile------------*/
+//------------ Our Team Section Mobile------------
 
 const slide = document.querySelector(".slide");
-//const professional = Array.from (slide.children);
 const professionals = document.querySelectorAll(".professional");
 const nextButton = document.querySelector(".arrowRight");
 const prevButton = document.querySelector(".arrowleft");
@@ -40,7 +39,38 @@ nextButton.addEventListener("click", e => {
 
 })
 
+//------------ Our Team Section Desktop------------
+
+const workName = document.querySelector('#workName');
+const info = document.querySelector('#teamText');
+
+let currentName = '';
+
+  const infoText = [
+    `text1`,
+
+    `text2`,
+
+    `text3`,
+
+    `text4`
+  ]
 
 
+
+function changeText() {
+
+    getText(this.classList, this.dataset.offset);
+ 
+    currentName = this.classList[0];
+   }
+   professionals.forEach(professional => professional.addEventListener('click', changeText));
+
+   function getText(name, index) {
+    console.log(name[0], index);
+    // change the house text on the page to be the name of the house that goes with the shield we clicked on
+    workName.textContent = `name \u00A0 ${name[1]}`;
+    info.textContent = infoText[index];
+  }
 
 })();
