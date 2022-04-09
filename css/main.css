@@ -528,6 +528,11 @@ button {
 
 .teamImagesD { margin: 30px;}
 
+.teamImagesD img { 
+    cursor: pointer;
+    pointer-events: all;
+}
+
 .teamImagesD p { 
     color: #CA9E67;
     text-align: center;
