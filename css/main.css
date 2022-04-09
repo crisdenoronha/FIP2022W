@@ -72,6 +72,19 @@ button {
     padding: 12px;
 }
 
+.blue {color:#0087CD;}
+
+.backBlue {
+    background-color: #0087CD;
+}
+
+.backBlack {
+    background-color: #000000;
+}
+
+.backgold {
+    background-color:#CA9E67
+}
 
 /*------------ Nav Section Mobile------------*/ 
 #navMobile {
@@ -133,20 +146,6 @@ button {
     margin-top: 25px;
     margin-bottom: 80px;
     color:#0087CD
-}
-
-.blue {color:#0087CD;}
-
-.backBlue {
-    background-color: #0087CD;
-}
-
-.backBlack {
-    background-color: #000000;
-}
-
-.backgold {
-    background-color:#CA9E67
 }
 
 .margin {
@@ -251,7 +250,7 @@ button {
     width: 220px;
 }
 
-.teamTitle { 
+.teamTitleM { 
     color: #0087CD;
     text-align: center;
     margin-top: 20px;
@@ -521,7 +520,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: stretch;
     margin: auto;
 }
@@ -531,6 +530,7 @@ button {
 .teamImagesD img { 
     cursor: pointer;
     pointer-events: all;
+    width: 100%;
 }
 
 .teamImagesD p { 
@@ -551,6 +551,18 @@ button {
     margin: 30px auto 30px auto;
     border-top: 3px solid #0087CD ;
     color: #0087CD;
+}
+.blue {color:#0087CD;}
+.cris {display: none;}
+.liz {display: none;}
+.fernando {display: none;}
+.tales {display: none;}
+.show {display: block;}
+.close {
+    margin-top: 10px;
+    width: 30%;
+    color:white;
+    background-color: #0087CD;
 }
 
 /*------------ Special Edition Section 430px------------*/    

@@ -39,38 +39,47 @@ nextButton.addEventListener("click", e => {
 
 })
 
+
+
 //------------ Our Team Section Desktop------------
 
-const workName = document.querySelector('#workName');
-const info = document.querySelector('#teamText');
+const Cristine = document.querySelector("#cris");
+const Liz = document.querySelector("#liz");
+const Fernando = document.querySelector("#fernando");
+const Tales = document.querySelector("#tales");
+const showCris = document.querySelector('.cris');
+const showLiz = document.querySelector('.liz');
+const showFernando = document.querySelector('.fernando');
+const showTales = document.querySelector('.tales');
+const close = document.querySelector('.close');
 
-let currentName = '';
+Cristine.addEventListener("click", () => {
+  showCris.classList.add('show');
 
-  const infoText = [
-    `text1`,
+})
 
-    `text2`,
+Liz.addEventListener("click", () => {
+  showLiz.classList.add('show');
 
-    `text3`,
+})
 
-    `text4`
-  ]
+Fernando.addEventListener("click", () => {
+  showFernando.classList.add('show');
 
+})
 
+Tales.addEventListener("click", () => {
+  showTales.classList.add('show');
 
-function changeText() {
+})
 
-    getText(this.classList, this.dataset.offset);
- 
-    currentName = this.classList[0];
-   }
-   professionals.forEach(professional => professional.addEventListener('click', changeText));
+close.addEventListener("click", () => {
+  showCris.classList.remove('show');
+  showLiz.classList.remove('show');
+  showFernando.classList.remove('show');
+  showTales.classList.remove('show');
 
-   function getText(name, index) {
-    console.log(name[0], index);
-    // change the house text on the page to be the name of the house that goes with the shield we clicked on
-    workName.textContent = `name \u00A0 ${name[1]}`;
-    info.textContent = infoText[index];
-  }
+})
+
 
 })();
