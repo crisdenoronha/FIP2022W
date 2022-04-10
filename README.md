@@ -1,4 +1,4 @@
-# MID TERM MMED 1056 - Web Development 2
+# MID TERM MMED 1056 & 1055
 ## The Brands for the FIP Mashup
 
 <p>Molson Gold is a beer made for athletes and people who like to do sports or exercise. 
